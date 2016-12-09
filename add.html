@@ -1,0 +1,31 @@
+<!DOCTYPE html>			<!--添加日志窗口-->
+<html>
+<head>
+	<title>BLOG</title>
+</head>	
+<body bgcolor="#F5F5DC">
+	<h1>My-BLOG</h1>
+	<form action="add.php" method="post">
+	<table border="2" bgcolor="#E0FFFF">
+		<tr>
+			<td>日志标题：</td>
+			<td>
+				<input type="text" name="title" size="49">
+			</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><textarea name="content" cols="49" rows="10" style="resize: none;"></textarea></td>
+		</tr>
+		<!-- <input type="hidden" name="user_name" value=<?php echo $_SESSION['user_name']; ?> /> -->
+		<tr>
+			<td></td>
+			<td>  
+				<input type="submit" value="                                       提  交                                       ">
+			</td>
+		</tr>
+		
+		</table>
+	</form>
+</body>
+</html> 
